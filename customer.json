@@ -1,0 +1,26 @@
+{
+	"name": "Test",
+	"surname": "Tester",
+	"age": 10,
+	"height": 1.8,
+	"addresses": [{
+		"sequenceNo":"",
+		"line1": "",
+		"line2": "",
+		"line3": "",
+		"line4": "",
+		"code": "",
+		"type": "RESIDENTIAL"
+	}],
+	"id": "23243e3433",
+	"idNumber": "",
+	"passportNumber": "",
+	"nationality": "",
+	"dateCreated":"",
+	"lastUpdate":"",
+	"active":true,
+	"dateCreated":"",
+	"lastUpdated":"",
+	"expiryDate":""
+
+}
