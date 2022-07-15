@@ -14,8 +14,10 @@ load_dotenv()
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL')
 
-api.add_resource(Customer, "customer/<str:id>")
-api.add_resource(CustomerList, "customer/")
+from database import Customer 
+
+api.add_resource(Customer, "/customer/<str:id>")
+api.add_resource(CustomerList, "/customer")
 
 
 if __name__ == '__main__':
