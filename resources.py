@@ -1,4 +1,6 @@
+from flask import jsonify 
 from flask_restful import Resource
+from database import Customer 
 
 class Customer(Resource):
 
@@ -15,7 +17,8 @@ class Customer(Resource):
 class CustomerList(Resource):
 
     def get(self):
-        pass 
+        customers = Customer.query.all()
+        return jsonify(customers)
 
     def post(self):
         pass 
